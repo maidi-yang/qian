@@ -40,6 +40,13 @@ $config = [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'urlManager' => [
+            'enablePrettyUrl' => true,
+            'showScriptName' => false,
+            'rules' => [
+                '<action:[a-z0-9\-]+>' => 'site/<action>'
+            ],
+        ],
     ],
     'params' => $params,
     'language'=>'zh-CN'
