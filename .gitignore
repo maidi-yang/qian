@@ -1,6 +1,3 @@
-# yii console command
-/yii
-
 # phpstorm project files
 .idea
 
@@ -15,19 +12,41 @@ nbproject
 # windows thumbnail cache
 Thumbs.db
 
-# composer vendor dir
-#/vendor
-
 # composer itself is not needed
 composer.phar
 
 # Mac DS_Store Files
 .DS_Store
 
+#serviceData Files for sms
+/restful/data/
+
 # phpunit itself is not needed
 phpunit.phar
 # local phpunit config
 /phpunit.xml
-.svn/
-.sonar/.sonartmp/caches/persistit_tempvol_5161417842659489665.tmp
+
+/ui
+/.vagrant/
+/access.log
+/error.log
+TestController.php
+node_modules
+.metadata
+*.swp
+/test/
+*.*~
+/install.lock
+/envvars-local.php
+# /env.php
+/ext/Encrypt.php
 sonar-project.properties
+/.sonar
+/data
+/backend/web/assets/
+!/backend/web/assets/apps
+!/backend/web/assets/global
+!/backend/web/assets/layouts
+!/backend/web/assets/mobile
+!/backend/web/assets/pages
+
