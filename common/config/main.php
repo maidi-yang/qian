@@ -35,7 +35,7 @@ if(ERRAND_ENV_TEST){
         'class' => 'yii\db\Connection',
         'dsn' => 'mysql:host=localhost;dbname=yiiboot3',
         'username' => 'root',
-        'password' => 'qian!2018',
+        'password' => 'Qian!2018',
         'charset' => 'utf8',
     ];
 }
