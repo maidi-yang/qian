@@ -38,7 +38,7 @@ node_modules
 *.*~
 /install.lock
 /envvars-local.php
-# /env.php
+/env.php
 /ext/Encrypt.php
 sonar-project.properties
 /.sonar
